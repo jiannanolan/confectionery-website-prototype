@@ -258,7 +258,30 @@ h3 {
   }
 }
 
+.hoursofop {
+  background-color: rgba(255, 255, 255, 0.73);
+  margin: 1rem;
+  border-radius: 1rem;
+  padding-bottom: .2rem;
+}
 
+.hoursofop li {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .90rem;
+  text-align: center;
+}
+
+.hoursofop ol {
+  padding: 0;
+}
+
+.hoursofop h2 {
+  padding-top: .75rem;
+  background-color: #188288;
+  padding: .3rem 1rem;
+  border-radius: 1rem 1rem 0 0;
+}
 
 @media only screen and (min-width: 25em) {
 
