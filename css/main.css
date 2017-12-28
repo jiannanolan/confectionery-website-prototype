@@ -278,18 +278,25 @@ border-radius: 1rem 1rem 0 0;
   padding: 0;
 }
 
-figcaption {
+.location p {
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: .8rem;
+  font-size: .88rem;
   text-align: center;
   font-weight: bold;
   padding-left: 2rem;
   padding-right: 2rem;
+  margin: 0;
 }
 
 .location strong {
   color: #188288;
+}
+
+form {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8rem;
+  text-align: center;
 }
 
 .box {
@@ -305,7 +312,43 @@ figcaption {
   margin-top: .5rem;
 }
 
+.contact {
+  background-color: rgba(255, 255, 255, 0.73);
+  margin: 1rem;
+  border-radius: 1rem;
+  padding-bottom: .75rem;
+}
 
+.contact h2 {
+padding-top: .75rem;
+background-color: #363032;
+padding: .8rem;
+border-radius: 1rem 1rem 0 0;
+}
+
+.contact img {
+  max-width: 4em;
+}
+
+.contact li {
+  display: inline-block;
+  max-width: 5em;
+}
+
+li a {
+  display: hidden;
+}
+
+.contact ul {
+  text-align: center;
+}
+
+.contact a {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .5rem;
+  border: none;
+}
 
 
 
