@@ -335,6 +335,10 @@ border-radius: 1rem 1rem 0 0;
   color: #363032;
 }
 
+span {
+  display: block;
+}
+
 .location strong {
   color: #188288;
 }
@@ -343,6 +347,14 @@ form {
   font-family: 'Montserrat', sans-serif;
   font-size: .8rem;
   text-align: center;
+}
+
+.postal {
+  margin-top: .8rem;
+}
+
+.find {
+  margin-top: .5rem;
 }
 
 .box {
@@ -722,6 +734,11 @@ nav a {
   float: right;
 }
 
+.location p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .contact {
   max-width: 20rem;
   float: left;
@@ -739,12 +756,19 @@ nav a {
 }
 
 .contact ol {
-  padding: 0 1.5rem;
+  padding: 0 2rem;
+  max-height: 3.2rem;
+  line-height: 1rem;
+  margin-top: .4rem;
+}
+
+.contact a {
+  font-size: .7rem;
 }
 
 footer {
   display: block;
-  margin-top: 33rem;
+  margin-top: 31rem;
   max-height: 3rem;
 }
 
