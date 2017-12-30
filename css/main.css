@@ -818,6 +818,17 @@ div a:hover {
     text-align: left;
   }
 
+  .contact li {
+    max-width: 3rem;
+  }
+
+  .nav-links li {
+    margin: 0;
+    padding-left: 3rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   nav li:first-child {
     max-width: 5rem;
     margin-left: -5rem;
@@ -854,23 +865,20 @@ div a:hover {
     display: inline-block;
     width: 50%;
     float: left;
+    max-height: 32rem;
   }
 
   .image-cardhead {
     padding-bottom: 0;
   }
 
-  .image-card {
-    max-height: 32rem;
-  }
-
   .image-cardtitle {
-    transform: scale(0.9);
+    transform: scale(.9);
     bottom: 15rem;
   }
 
   .image-cardbody {
-    transform: scale(0.9);
+    transform: scale(.9);
     left: 5.5rem;
   }
 
@@ -908,7 +916,7 @@ div a:hover {
     margin-left: 1.6rem;
     margin-right: 2.6rem;
     margin-top: 0;
-    margin-bottom: .0;
+    margin-bottom: 0;
     font-size: .78rem;
     padding: .5rem;
     position: absolute;
@@ -968,7 +976,7 @@ div a:hover {
     margin-right: 1.7rem;
   }
 
-  .card-body  {
+  .card-body {
     width: 85%;
     display: block;
     margin-top: 18.7rem;
@@ -993,13 +1001,6 @@ div a:hover {
     margin-left: 1rem;
   }
 
-  .hoursofop {
-    width: 100%;
-    max-width: 25rem;
-    max-height: 15rem;
-    margin-left: 1rem;
-  }
-
   .hoursofop nav li {
     padding: 0;
     margin: 0;
@@ -1012,7 +1013,6 @@ div a:hover {
   .small {
     position: absolute;
     display: inline-block;
-    float: left;
     width: 50%;
     max-width: 10rem;
     border-radius: 50%;
@@ -1050,19 +1050,11 @@ div a:hover {
     display: inline-block;
     width: 100%;
     max-width: 10rem;
-  }
-
-  .nav-images {
-    width: 100%;
     max-width: none;
     padding-left: 4.8rem;
   }
 
   .contact img {
-    max-width: 3rem;
-  }
-
-  .contact li {
     max-width: 3rem;
   }
 
@@ -1084,39 +1076,31 @@ div a:hover {
     padding-left: 5rem;
   }
 
-  .nav-links li {
-    margin: 0;
-    padding-left: 3rem;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
   .nav-links nav li:first-child {
-      max-width: 3rem;
-      padding: 0;
-      margin-right: 20rem;
-      margin-top: 0;
-      margin-left: 0;
-      margin-bottom: 0;
+    max-width: 3rem;
+    padding: 0;
+    margin-right: 20rem;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 
   .nav-links nav li:nth-child(2) {
-      max-width: 3rem;
-      padding: 0;
-      margin: 0;
+    max-width: 3rem;
+    padding: 0;
+    margin: 0;
   }
 
   .nav-links nav li:nth-child(3) {
-      max-width: 3rem;
-      padding: 0;
-      margin: 0;
+    max-width: 3rem;
+    padding: 0;
+    margin: 0;
   }
+}
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
   }
-
-
 }
