@@ -437,6 +437,10 @@ div a:hover {
   color: black;
 }
 
+.truffle {
+  display: none;
+}
+
 @media only screen and (min-width: 20em) {
 
   html {
@@ -484,6 +488,57 @@ div a:hover {
 
   a {
     padding: 0;
+  }
+
+  .center-header {
+    left: 7.4rem;
+  }
+
+  nav a {
+    text-align: center;
+    padding: .3rem;
+  }
+
+  .compmission h2 {
+    font-size: 2rem;
+    top: 52rem;
+  }
+
+  .center-history {
+    left: 8rem;
+    top: 52rem;
+  }
+
+  .compmission a {
+    padding: .5rem;
+  }
+
+  .center-products {
+    left: 9rem;
+  }
+
+  .card ul {
+    max-width: none;
+  }
+
+  .card li {
+    width: 100%;
+  }
+
+  .card-img {
+    max-width: 20rem;
+  }
+
+  .card a {
+    padding: .5rem;
+  }
+
+  .hoursofop li {
+    width: 100%;
+  }
+
+  .contact li {
+    width: 100%;
   }
 }
 
@@ -651,7 +706,7 @@ div a:hover {
     width: 50%;
     position: absolute;
     top: 3rem;
-    left: .5rem;
+    left: -.6rem;
   }
 
   .card li {
@@ -988,6 +1043,7 @@ div a:hover {
     max-width: 14rem;
     margin-left: .3rem;
     margin-top: 4.5rem;
+    left: .5rem;
   }
 
   h3 {
@@ -1102,5 +1158,116 @@ div a:hover {
 
   html {
     font-size: 130%;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    margin-left: 2rem;
+  }
+
+  .right-header {
+    left: 22rem;
+    top: 1.8rem;
+  }
+
+  .left-header {
+    left: -1.1rem;
+    top: .2rem;
+    max-width: 6rem;
+  }
+
+  nav {
+    max-width: 35rem;
+  }
+
+  nav ul {
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: .5rem;
+  }
+
+  nav a {
+    font-size: 1.3rem;
+    padding: .5rem;
+  }
+
+  nav li:nth-child(2) {
+    margin-left: 1.7rem;
+  }
+
+  .btn-stores {
+    margin-left: 3.2rem;
+  }
+
+  .btn-con {
+    margin-left: 4.87rem;
+  }
+
+  span.image-cardlable {
+    font-size: 1.5rem;
+  }
+
+  .image-cardtitle {
+    transform: scale(1.1);
+    bottom: 23rem;
+  }
+
+  .image-cardbody {
+    transform: scale(1.1);
+    bottom: 14rem;
+    left: 13rem;
+  }
+
+  .image-card {
+    max-height: 45rem;
+  }
+
+  .history-content {
+    height: 20.7rem;
+  }
+
+  .center-history h2 {
+    font-size: 2.5rem;
+  }
+
+  .center-history {
+    max-width: 12rem;
+    left: 11rem;
+  }
+
+  .history-content p {
+    font-size: .85rem;
+    margin-top: 6rem;
+    margin-left: 3.5rem;
+  }
+
+  .history-content .btn {
+    padding: .8rem;
+    top: 16.5rem;
+    left: 14rem;
+  }
+
+  .products h2 {
+    margin-top: 0;
+  }
+
+  img.card-img {
+    max-width: 18rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .truffle {
+    display: inline-block;
+    max-width: 18rem;
+    margin-top: 3rem;
+  }
+
+  img.truffle-image {
+    border-radius: 4rem;
+  }
+
+  footer {
+    margin-top: 3rem;
   }
 }
