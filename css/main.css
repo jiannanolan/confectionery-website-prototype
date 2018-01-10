@@ -58,6 +58,10 @@ header h1 {
   text-shadow: 1px 1px 4px #fff;
 }
 
+header p {
+  margin: 0;
+}
+
 nav a {
   font-family: "Julius Sans One", sans-serif;
   color: #fff;
@@ -480,6 +484,10 @@ div a:hover {
     line-height: 1.3;
   }
 
+  header h1 {
+    padding-top: 2rem;
+  }
+
   li {
     display: inline-block;
     width: 49%;
@@ -574,28 +582,34 @@ div a:hover {
     margin: 0;
   }
 
-  h1 {
-    padding-bottom: .6rem;
-    display: block;
+  header h1 {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  header {
-    position: relative;
+  h1 {
+      display: block;
+      padding-bottom: 0;
+    }
+
+  header p {
+    padding-top: 2rem;
+    display: inline-block;
   }
 
   .left-header {
     display: inline-block;
     max-width: 3em;
-    position: absolute;
-    left: 3.9rem;
-    top: -.5rem;
+    float: left;
   }
 
   .right-header {
     display: inline-block;
     max-width: 3em;
-    position: absolute;
-    top: .5rem;
+    padding-top: .56rem;
+    padding-right: .6rem;
+    float: right;
   }
 
   .center-header {
@@ -864,37 +878,37 @@ div a:hover {
 
   header {
     display: block;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
   }
 
   header h1 {
-    width: 40%;
+    width: 42%;
     display: inline-block;
-    margin-top: 1.4rem;
     margin-bottom: 0;
-    margin-left: 1.5rem;
     padding: 0;
     float: left;
   }
 
+  header p {
+    float: left;
+    padding-left: 1rem;
+  }
+
   .left-header {
-    left: -.3rem;
-    top: .3rem;
-    max-width: 4.5rem;
+    display: none;
   }
 
   .right-header {
-    left: 14rem;
-    top: .4rem;
-    opacity: .5;
-    z-index: 1001;
-    max-width: 10rem;
+    display: inline-block;
+    max-width: 3rem;
+    padding-right: 0;
+    padding-top: 2rem;
   }
 
   nav {
-    display: inline-block;
-    width: 100%;
-    max-width: 28rem;
+    width: 50%;
+    margin-right: 2rem;
+    float: right;
   }
 
   nav ul {
@@ -1197,24 +1211,36 @@ div a:hover {
     font-size: 130%;
   }
 
-  header h1 {
-    font-size: 3rem;
-    margin-left: 2rem;
+  header {
+    padding-bottom: 7rem;
   }
 
-  .right-header {
-    left: 22rem;
-    top: 1.8rem;
+  header h1 {
+    font-size: 3rem;
+    width: 45%;
+  }
+
+  header p {
+    float: none;
+    padding: 0;
+    font-size: 2.5rem;
+    margin-top: 2rem;
   }
 
   .left-header {
-    left: -1.1rem;
-    top: .2rem;
-    max-width: 6rem;
+    display: inline-block;
+    float: left;
+    max-width: 5rem;
+    margin-top: 1.5rem;
+  }
+
+  .right-header {
+    max-width: 5rem;
   }
 
   nav {
     max-width: 35rem;
+    margin-right: 1rem;
   }
 
   nav ul {
@@ -1233,11 +1259,16 @@ div a:hover {
   }
 
   .btn-stores {
-    margin-left: 3.2rem;
+    margin-left: 2.8rem;
   }
 
   .btn-con {
-    margin-left: 4.87rem;
+    margin-left: 4.3rem;
+  }
+
+  .btn-chocolates {
+    padding-top: .74rem;
+    padding-bottom: .74rem;
   }
 
   span.image-cardlable {
