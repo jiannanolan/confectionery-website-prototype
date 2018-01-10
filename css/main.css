@@ -13,6 +13,7 @@ html {
   font: normal 100%/1.3 Georgia, serif;
   margin: 0;
   background-color: #adadad;
+  overflow-x: hidden;
 }
 
 *, *::before, *::after {
@@ -21,6 +22,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -28,15 +30,14 @@ header {
   font-family: "League Script", cursive;
   margin: 0;
   background-color: #363032;
-  position: relative;
 }
 
 .center-header {
+  display: block;
   max-width: 10em;
-  position: absolute;
-  left: 5rem;
-  top: 2.5rem;
-
+  margin: 0 auto;
+  margin-top: -2rem;
+  margin-bottom: -2rem;
 }
 
 .left-header {
@@ -73,7 +74,10 @@ nav ul {
   padding-bottom: 1rem;
   font-size: 1.125rem;
   margin-bottom: 0;
-  margin-top: 5rem;
+}
+
+ul {
+  margin: 0;
 }
 
 .image-cardimgflex {
@@ -106,7 +110,7 @@ nav ul {
 .image-cardlable {
   padding: .3rem 1rem .3rem calc(1rem - 4px);
   border-left: 10px solid #ba1414;
-  background-color: rgba(255, 255, 255, .6);
+  background-color: white;
   position: absolute;
   color: black;
   font-family: "Dancing Script", cursive;
@@ -163,13 +167,11 @@ div h2 {
 .history-imageflex {
   display: inline-block;
   text-align: center;
-  max-width: 25em;
   position: relative;
 }
 
 .history-content {
   display: inline-block;
-  max-width: 25em;
   margin-top: -1em;
   padding-left: 1em;
   padding-right: 1em;
@@ -182,7 +184,6 @@ div h2 {
 
 img {
   display: inline-block;
-  max-width: 25em;
   width: 100%;
 }
 
@@ -496,17 +497,36 @@ div a:hover {
 
   nav a {
     text-align: center;
-    padding: .3rem;
+    padding: .6rem;
+  }
+
+  header nav li {
+    margin-bottom: 0;
+  }
+
+  .btn-holiday {
+    display: inline-block;
+    width: 10em;
+  }
+
+  .btn-stores {
+    display: inline-block;
+    width: 10em;
+  }
+
+  .btn-con {
+    display: inline-block;
+    width: 10em;
   }
 
   .compmission h2 {
     font-size: 2rem;
-    top: 52rem;
+    top: 55rem;
   }
 
   .center-history {
     left: 8rem;
-    top: 52rem;
+    top: 54.5rem;
   }
 
   .compmission a {
@@ -515,6 +535,7 @@ div a:hover {
 
   .center-products {
     left: 9rem;
+    top: 88rem;
   }
 
   .card ul {
@@ -584,7 +605,8 @@ div a:hover {
   nav ul {
     background-color: #363032;
     text-align: center;
-    margin: 0;
+    margin-left: -1.4rem;
+    margin-top: 0;
   }
 
   li {
@@ -600,15 +622,30 @@ div a:hover {
 
   .btn-stores {
     margin-left: 2em;
+    width: auto;
   }
 
-  .image-card {
-    max-height: 43rem;
+  .btn-chocolates {
+    padding: .34rem;
+  }
+
+  .btn-holiday {
+    display: inline-block;
+    width: auto;
+  }
+
+  .btn-con {
+    display: inline-block;
+    width: auto;
   }
 
   .image-cardimgflex {
     margin: 0;
     max-width: none;
+  }
+
+  .image-card {
+    max-height: 42rem;
   }
 
   .image-cardlable {
@@ -633,7 +670,7 @@ div a:hover {
     padding: 0;
     border-radius: 50%;
     bottom: 13rem;
-    left: 14rem;
+    left: 13rem;
     background-color: rgba(118, 113, 113, .9);
     border: .3rem dotted white;
     font-size: 1.4rem;
@@ -651,12 +688,8 @@ div a:hover {
     display: block;
   }
 
-  .history-imageflex {
-    max-width: none;
-  }
-
   .history h2 {
-    top: 62rem;
+    top: 60rem;
     font-size: 2rem;
   }
 
@@ -664,11 +697,10 @@ div a:hover {
     max-width: 9rem;
     opacity: .8;
     left: 12.5rem;
-    top: 61.2rem;
+    top: 59.2rem;
   }
 
   .history-content {
-    max-width: none;
     background-color: #1e120f;
     margin-top: -1rem;
     padding-bottom: 2rem;
@@ -688,11 +720,15 @@ div a:hover {
     font-size: 2rem;
   }
 
+  .products h2 {
+    margin-top: 1.75rem;
+  }
+
   .center-products {
     max-width: 8rem;
     position: absolute;
     left: 13.5rem;
-    top: 96.5rem;
+    top: 96rem;
   }
 
   .card {
@@ -864,6 +900,7 @@ div a:hover {
   nav ul {
     margin-right: 0;
     padding-bottom: 0;
+    margin: 0;
   }
 
   nav li {
