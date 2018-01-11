@@ -987,6 +987,7 @@ div a:hover {
     width: 20%;
     max-width: 4rem;
     float: left;
+    margin-left: 3rem;
   }
 
   .nav-links {
@@ -1052,7 +1053,6 @@ div a:hover {
   }
 
   nav ul {
-    text-align: left;
     margin-top: .5rem;
   }
 
@@ -1083,6 +1083,7 @@ div a:hover {
   .nav-images {
     width: 50%;
     max-width: none;
+    margin-left: 0;
   }
 
   .contact nav {
