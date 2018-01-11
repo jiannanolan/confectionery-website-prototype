@@ -1028,6 +1028,25 @@ div a:hover {
   }
 }
 
+@media only screen and (min-width: 80em) {
+
+  .history h2{
+    top: 9rem;
+  }
+
+  .history-content p {
+    top: 20rem;
+  }
+
+  .small {
+    margin-left: 5rem;
+  }
+
+  .hoursofop nav ol {
+    margin-left: -3rem;
+  }
+}
+
 @media only screen and (min-width: 90em) {
 
   html {
