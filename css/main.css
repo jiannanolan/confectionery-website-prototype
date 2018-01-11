@@ -56,7 +56,6 @@ header h1 {
   padding-bottom: .8rem;
   padding-top: 1.4rem;
   text-shadow: 1px 1px 4px #fff;
-  margin: 0;
 }
 
 nav a {
@@ -69,16 +68,16 @@ nav a {
   font-size: .9em;
 }
 
+ul {
+  margin: 0;
+}
+
 nav ul {
   list-style-type: none;
   padding-left: 0;
   padding-bottom: 1rem;
   font-size: 1.125rem;
   margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
 }
 
 .image-card {
@@ -95,7 +94,6 @@ ul {
   display: block;
   padding: .3rem 1rem;
   position: absolute;
-  bottom: 0;
   width: 100%;
   font-size: 1.25rem;
   color: #fff;
@@ -104,6 +102,17 @@ ul {
   background: #ba1415;
   max-height: 2rem;
   bottom: .8rem;
+}
+
+div p {
+  line-height: 1.5;
+  margin: .8rem;
+  margin-top: .5rem;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: .8rem;
+  text-align: center;
 }
 
 .image-card p {
@@ -133,7 +142,6 @@ h2 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   position: absolute;
-  width: 100%;
   top: 3.5rem;
   left: .5rem;
 }
@@ -154,17 +162,6 @@ h2 {
 img {
   display: inline-block;
   width: 100%;
-}
-
-div p {
-  line-height: 1.5;
-  margin: .8rem;
-  margin-top: .5rem;
-  border-radius: 8px;
-  color: #fff;
-  font-family: Montserrat, sans-serif;
-  font-size: .8rem;
-  text-align: center;
 }
 
 .history-content p {
@@ -427,6 +424,7 @@ div a:hover {
   li {
     padding-left: .3em;
     margin-bottom: .9rem;
+    width: 100%;
   }
 
   .image-cardbody {
@@ -451,7 +449,7 @@ div a:hover {
 
   li {
     display: inline-block;
-    width: 49%;
+    width: 48%;
     padding: 0;
     text-align: center;
   }
@@ -534,21 +532,7 @@ div a:hover {
   }
 
   h1 {
-    width: 100%
-  }
-
-  .left-header {
-    display: inline-block;
-    max-width: 3em;
-    float: left;
-  }
-
-  .right-header {
-    display: inline-block;
-    max-width: 3em;
-    padding-top: .56rem;
-    padding-right: .6rem;
-    float: right;
+    width: 100%;
   }
 
   .center-header {
@@ -558,7 +542,6 @@ div a:hover {
   nav ul {
     background-color: #363032;
     text-align: center;
-    margin-left: -1.4rem;
     margin-top: 0;
   }
 
@@ -566,6 +549,7 @@ div a:hover {
     display: inline-block;
     padding: 0;
     margin-bottom: auto;
+    width: 24%;
   }
 
   nav a {
@@ -575,10 +559,14 @@ div a:hover {
 
   .btn-stores {
     width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1.2rem;
   }
 
   .btn-chocolates {
     padding: .34rem;
+    margin-left: -.5rem;
   }
 
   .btn-holiday {
@@ -637,6 +625,7 @@ div a:hover {
   .history-content p {
     background-color: #5f4f4f;
     margin: 2rem;
+    padding: 1rem;
   }
 
   .history-content a {
@@ -655,9 +644,7 @@ div a:hover {
     padding: 0;
     display: inline-block;
     width: 48%;
-    float: left;
-    margin-right: 0;
-    margin-left: 0;
+    margin: 45px 0;
   }
 
   .card li {
@@ -798,6 +785,10 @@ div a:hover {
     float: right;
   }
 
+  header nav {
+    padding: 0;
+  }
+
   header nav li {
     max-width: 6rem;
     padding-top: 2rem;
@@ -822,7 +813,9 @@ div a:hover {
   }
 
   .btn-stores {
-    margin-left: .5rem;
+    margin-left: .65rem;
+    padding-left: .1rem;
+    padding-right: .1rem;
   }
 
   .btn-con {
@@ -877,8 +870,8 @@ div a:hover {
     font-size: .78rem;
     left: 0;
     top: 13.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -935,9 +928,8 @@ div a:hover {
   .card-img {
     width: 100%;
     max-width: 15rem;
-    margin-top: 0;
     float: none;
-    margin-left: auto;
+    margin: auto;
   }
 
   .card h3 {
@@ -951,7 +943,7 @@ div a:hover {
   }
 
   .hoursofop nav li {
-    margin-bottom: : 0;
+    margin-bottom: 0;
     padding: 0;
   }
 
@@ -999,15 +991,10 @@ div a:hover {
 
   .nav-links {
     display: inline-block;
-    margin-top: 1rem;
   }
 
   li.facebook {
     padding-left: 0;
-  }
-
-  .contact ol {
-    max-width: 5rem;
   }
 
   .contact img {
@@ -1020,10 +1007,11 @@ div a:hover {
 
   .contact ol {
     padding: 0;
+    max-width: 5rem;
   }
 
   .nav-links ol {
-    margin-top: 1rem;
+    font-size: 3rem;
   }
 
   .truffle {
@@ -1052,11 +1040,10 @@ div a:hover {
   header h1 {
     float: none;
     padding: 0;
-    font-size: 2.5rem;
     margin-top: 2rem;
     margin-left: -.5rem;
     font-size: 3rem;
-    width: 40%
+    width: 40%;
   }
 
   nav {
@@ -1066,7 +1053,6 @@ div a:hover {
 
   nav ul {
     text-align: left;
-    margin-left: 3rem;
     margin-top: .5rem;
   }
 
@@ -1082,18 +1068,34 @@ div a:hover {
 
   .btn-stores {
     margin-left: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .btn-con {
-    margin-left: 1.2rem;
+    margin-left: 2.1rem;
   }
 
   .nav-links {
-    width: 25%;
+    width: 20%;
   }
 
-  .contact {
-    max-width: 25%;
+  .nav-images {
+    width: 50%;
+    max-width: none;
+  }
+
+  .contact nav {
+    float: none;
+    width: 100%;
+  }
+
+  .contact ol {
+    max-width: 30rem;
+  }
+
+  .nav-images ol {
+    margin-top: 1.5rem;
   }
 
   .location {
@@ -1105,10 +1107,11 @@ div a:hover {
     top: 3.8rem;
     max-height: 8rem;
     width: 50%;
-    border-radius: 0 0 20px 0;
+    border-radius: 0 0 20px;
   }
 
   .contact {
+    padding-bottom: 1.7rem;
     width: 44%;
     max-width: none;
   }
@@ -1116,6 +1119,10 @@ div a:hover {
   nav a {
     font-size: 1.3rem;
     padding: .5rem;
+  }
+
+  .nav-images li {
+    max-width: 3rem;
   }
 
   .image-cardtitle {
@@ -1151,7 +1158,7 @@ div a:hover {
   }
 
   .hoursofop {
-    width: 44%
+    width: 44%;
   }
 
   .truffle {
