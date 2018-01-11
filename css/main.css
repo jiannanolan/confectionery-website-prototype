@@ -166,6 +166,7 @@ img {
 
 .history-content p {
   background-color: #5f4f4f;
+  padding: .5rem;
 }
 
 div a {
@@ -869,7 +870,7 @@ div a:hover {
     position: absolute;
     font-size: .78rem;
     left: 0;
-    top: 13.5rem;
+    top: 13rem;
     margin-left: 3rem;
     margin-right: 3rem;
     margin-top: 0;
