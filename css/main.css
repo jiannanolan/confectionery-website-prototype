@@ -767,7 +767,7 @@ div a:hover {
 
   header {
     display: block;
-    padding-bottom: 6rem;
+    overflow: hidden;
   }
 
   header h1 {
